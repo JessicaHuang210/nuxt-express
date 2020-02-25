@@ -2,9 +2,12 @@
 
 > My stupendous Nuxt.js project
 
+[預覽 1](https://nuxt-express-7d541.web.app/)
+[預覽 2](https://nuxt-express-7d541.firebaseapp.com/)
+
 ## Build Setup
 
-``` bash
+```bash
 # install dependencies
 $ yarn install
 
