@@ -1,5 +1,7 @@
 module.exports = {
   mode: "universal",
+  srcDir: "src",
+  buildDir: "functions/.nuxt",
   /*
    ** Headers of the page
    */
