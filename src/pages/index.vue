@@ -1,6 +1,6 @@
 <template>
-  <div>{{data}}
-
+  <div>
+    {{data}}
     <button @click="addData"></button>
   </div>
 </template>
@@ -12,7 +12,9 @@ export default {
     return { data: "456789" };
   },
   created() {
-    fetch("http://localhost:3000/api/test");
+    fetch("http://localhost:3000/api/login")
+      .then(response => response.json())
+      .then(response => console.log("Success:", response));
   },
   methods: {
     addData() {
